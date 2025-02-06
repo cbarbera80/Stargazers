@@ -1,0 +1,8 @@
+"home.title" = "Search";
+"home.userLabel.text" = "User";
+"home.userTextField.text" = "Insert user's name";
+"home.repoTLabel.text" = "Repository";
+"home.repoTextField.text" = "Insert repository's name";
+"home.searchButton.title" = "Search";
+"home.showResults.text" = "Show results";
+"home.showResults.noData.text" = "No data found";

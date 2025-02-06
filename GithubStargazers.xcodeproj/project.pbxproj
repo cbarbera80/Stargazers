@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 70;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F74E2F1C2D54A0530034B3F0 /* Anchorage in Frameworks */ = {isa = PBXBuildFile; productRef = F74E2F1B2D54A0530034B3F0 /* Anchorage */; };
+		F74E2F1F2D54A07E0034B3F0 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = F74E2F1E2D54A07E0034B3F0 /* Kingfisher */; };
+		F74E2F222D54A0A50034B3F0 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F74E2F212D54A0A50034B3F0 /* IQKeyboardManagerSwift */; };
+		F74E2F252D54A0DE0034B3F0 /* CBNetworking in Frameworks */ = {isa = PBXBuildFile; productRef = F74E2F242D54A0DE0034B3F0 /* CBNetworking */; };
+		F74E30302D54A5570034B3F0 /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = F74E302F2D54A5570034B3F0 /* Swinject */; };
+		F7D513F925D67AE000A1A070 /* HomeViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D513F825D67AE000A1A070 /* HomeViewModelTest.swift */; };
+		F7D5146E25D6927C00A1A070 /* DetailViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D5146D25D6927C00A1A070 /* DetailViewModelTest.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F7D513FB25D67AE000A1A070 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7D063A225D53F8B00BAC3A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7D063A925D53F8C00BAC3A0;
+			remoteInfo = GithubStargazers;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F735C33B25D542E50067D35A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F7D063AA25D53F8C00BAC3A0 /* GithubStargazers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GithubStargazers.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7D513F625D67AE000A1A070 /* GithubStargazersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GithubStargazersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7D513F825D67AE000A1A070 /* HomeViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModelTest.swift; sourceTree = "<group>"; };
+		F7D513FA25D67AE000A1A070 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7D5146D25D6927C00A1A070 /* DetailViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModelTest.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		F74E303E2D54A6200034B3F0 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = F7D063A925D53F8C00BAC3A0 /* GithubStargazers */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		F74E302A2D54A4C60034B3F0 /* Networking */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Networking; sourceTree = "<group>"; };
+		F74E303A2D54A6200034B3F0 /* Application */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (F74E303E2D54A6200034B3F0 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = Application; sourceTree = "<group>"; };
+		F74E30442D54A7540034B3F0 /* Resources */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Resources; sourceTree = "<group>"; };
+		F74E304C2D54A75A0034B3F0 /* Models */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Models; sourceTree = "<group>"; };
+		F74E30522D54A76E0034B3F0 /* Coordinators */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Coordinators; sourceTree = "<group>"; };
+		F74E305E2D54A7BC0034B3F0 /* Extensions */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Extensions; sourceTree = "<group>"; };
+		F74E30652D54A7C20034B3F0 /* Infrastructure */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Infrastructure; sourceTree = "<group>"; };
+		F74E306B2D54A7D90034B3F0 /* Protocols */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Protocols; sourceTree = "<group>"; };
+		F74E30702D54A7E40034B3F0 /* Storyboards */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Storyboards; sourceTree = "<group>"; };
+		F74E30842D54B0640034B3F0 /* Scenes */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Scenes; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7D063A725D53F8C00BAC3A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F74E2F1C2D54A0530034B3F0 /* Anchorage in Frameworks */,
+				F74E30302D54A5570034B3F0 /* Swinject in Frameworks */,
+				F74E2F1F2D54A07E0034B3F0 /* Kingfisher in Frameworks */,
+				F74E2F222D54A0A50034B3F0 /* IQKeyboardManagerSwift in Frameworks */,
+				F74E2F252D54A0DE0034B3F0 /* CBNetworking in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7D513F325D67AE000A1A070 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		318F6BFB96869009FD72EA6A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F7D063A125D53F8B00BAC3A0 = {
+			isa = PBXGroup;
+			children = (
+				F7D063AC25D53F8C00BAC3A0 /* GithubStargazers */,
+				F7D513F725D67AE000A1A070 /* GithubStargazersTests */,
+				F7D063AB25D53F8C00BAC3A0 /* Products */,
+				318F6BFB96869009FD72EA6A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F7D063AB25D53F8C00BAC3A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7D063AA25D53F8C00BAC3A0 /* GithubStargazers.app */,
+				F7D513F625D67AE000A1A070 /* GithubStargazersTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7D063AC25D53F8C00BAC3A0 /* GithubStargazers */ = {
+			isa = PBXGroup;
+			children = (
+				F74E303A2D54A6200034B3F0 /* Application */,
+				F74E30522D54A76E0034B3F0 /* Coordinators */,
+				F74E305E2D54A7BC0034B3F0 /* Extensions */,
+				F74E30652D54A7C20034B3F0 /* Infrastructure */,
+				F74E304C2D54A75A0034B3F0 /* Models */,
+				F74E302A2D54A4C60034B3F0 /* Networking */,
+				F74E306B2D54A7D90034B3F0 /* Protocols */,
+				F74E30442D54A7540034B3F0 /* Resources */,
+				F74E30842D54B0640034B3F0 /* Scenes */,
+				F74E30702D54A7E40034B3F0 /* Storyboards */,
+			);
+			path = GithubStargazers;
+			sourceTree = "<group>";
+		};
+		F7D513F725D67AE000A1A070 /* GithubStargazersTests */ = {
+			isa = PBXGroup;
+			children = (
+				F7D513F825D67AE000A1A070 /* HomeViewModelTest.swift */,
+				F7D5146D25D6927C00A1A070 /* DetailViewModelTest.swift */,
+				F7D513FA25D67AE000A1A070 /* Info.plist */,
+			);
+			path = GithubStargazersTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F7D063A925D53F8C00BAC3A0 /* GithubStargazers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7D063BE25D53F8C00BAC3A0 /* Build configuration list for PBXNativeTarget "GithubStargazers" */;
+			buildPhases = (
+				F7D063A625D53F8C00BAC3A0 /* Sources */,
+				F7D063A725D53F8C00BAC3A0 /* Frameworks */,
+				F7D063A825D53F8C00BAC3A0 /* Resources */,
+				F735C33B25D542E50067D35A /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				F74E302A2D54A4C60034B3F0 /* Networking */,
+				F74E303A2D54A6200034B3F0 /* Application */,
+				F74E30442D54A7540034B3F0 /* Resources */,
+				F74E304C2D54A75A0034B3F0 /* Models */,
+				F74E30522D54A76E0034B3F0 /* Coordinators */,
+				F74E305E2D54A7BC0034B3F0 /* Extensions */,
+				F74E30652D54A7C20034B3F0 /* Infrastructure */,
+				F74E306B2D54A7D90034B3F0 /* Protocols */,
+				F74E30702D54A7E40034B3F0 /* Storyboards */,
+				F74E30842D54B0640034B3F0 /* Scenes */,
+			);
+			name = GithubStargazers;
+			productName = GithubStargazers;
+			productReference = F7D063AA25D53F8C00BAC3A0 /* GithubStargazers.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F7D513F525D67AE000A1A070 /* GithubStargazersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7D513FF25D67AE000A1A070 /* Build configuration list for PBXNativeTarget "GithubStargazersTests" */;
+			buildPhases = (
+				F7D513F225D67AE000A1A070 /* Sources */,
+				F7D513F325D67AE000A1A070 /* Frameworks */,
+				F7D513F425D67AE000A1A070 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7D513FC25D67AE000A1A070 /* PBXTargetDependency */,
+			);
+			name = GithubStargazersTests;
+			productName = GithubStargazersTests;
+			productReference = F7D513F625D67AE000A1A070 /* GithubStargazersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7D063A225D53F8B00BAC3A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					F7D063A925D53F8C00BAC3A0 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					F7D513F525D67AE000A1A070 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = F7D063A925D53F8C00BAC3A0;
+					};
+				};
+			};
+			buildConfigurationList = F7D063A525D53F8B00BAC3A0 /* Build configuration list for PBXProject "GithubStargazers" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F7D063A125D53F8B00BAC3A0;
+			packageReferences = (
+				F74E2F1A2D54A0530034B3F0 /* XCRemoteSwiftPackageReference "Anchorage" */,
+				F74E2F1D2D54A07E0034B3F0 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				F74E2F202D54A0A50034B3F0 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+				F74E2F232D54A0DE0034B3F0 /* XCRemoteSwiftPackageReference "CBNetworking" */,
+				F74E302E2D54A5570034B3F0 /* XCRemoteSwiftPackageReference "Swinject" */,
+			);
+			productRefGroup = F7D063AB25D53F8C00BAC3A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7D063A925D53F8C00BAC3A0 /* GithubStargazers */,
+				F7D513F525D67AE000A1A070 /* GithubStargazersTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F7D063A825D53F8C00BAC3A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7D513F425D67AE000A1A070 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7D063A625D53F8C00BAC3A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7D513F225D67AE000A1A070 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7D513F925D67AE000A1A070 /* HomeViewModelTest.swift in Sources */,
+				F7D5146E25D6927C00A1A070 /* DetailViewModelTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F7D513FC25D67AE000A1A070 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7D063A925D53F8C00BAC3A0 /* GithubStargazers */;
+			targetProxy = F7D513FB25D67AE000A1A070 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F7D063BC25D53F8C00BAC3A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F7D063BD25D53F8C00BAC3A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F7D063BF25D53F8C00BAC3A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YNN66KCAQW;
+				INFOPLIST_FILE = GithubStargazers/Application/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.githubstargazers.demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F7D063C025D53F8C00BAC3A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YNN66KCAQW;
+				INFOPLIST_FILE = GithubStargazers/Application/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.githubstargazers.demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		F7D513FD25D67AE000A1A070 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = GithubStargazersTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Claudio-Barbera.GithubStargazersTests";
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GithubStargazers.app/GithubStargazers";
+			};
+			name = Debug;
+		};
+		F7D513FE25D67AE000A1A070 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = GithubStargazersTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Claudio-Barbera.GithubStargazersTests";
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=macosx*]" = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GithubStargazers.app/GithubStargazers";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7D063A525D53F8B00BAC3A0 /* Build configuration list for PBXProject "GithubStargazers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7D063BC25D53F8C00BAC3A0 /* Debug */,
+				F7D063BD25D53F8C00BAC3A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7D063BE25D53F8C00BAC3A0 /* Build configuration list for PBXNativeTarget "GithubStargazers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7D063BF25D53F8C00BAC3A0 /* Debug */,
+				F7D063C025D53F8C00BAC3A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7D513FF25D67AE000A1A070 /* Build configuration list for PBXNativeTarget "GithubStargazersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7D513FD25D67AE000A1A070 /* Debug */,
+				F7D513FE25D67AE000A1A070 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F74E2F1A2D54A0530034B3F0 /* XCRemoteSwiftPackageReference "Anchorage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Rightpoint/Anchorage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.5.0;
+			};
+		};
+		F74E2F1D2D54A07E0034B3F0 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.2.0;
+			};
+		};
+		F74E2F202D54A0A50034B3F0 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+		F74E2F232D54A0DE0034B3F0 /* XCRemoteSwiftPackageReference "CBNetworking" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/cbarbera80/CBNetworking";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.1;
+			};
+		};
+		F74E302E2D54A5570034B3F0 /* XCRemoteSwiftPackageReference "Swinject" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Swinject/Swinject";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.9.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F74E2F1B2D54A0530034B3F0 /* Anchorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F74E2F1A2D54A0530034B3F0 /* XCRemoteSwiftPackageReference "Anchorage" */;
+			productName = Anchorage;
+		};
+		F74E2F1E2D54A07E0034B3F0 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F74E2F1D2D54A07E0034B3F0 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		F74E2F212D54A0A50034B3F0 /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F74E2F202D54A0A50034B3F0 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+		F74E2F242D54A0DE0034B3F0 /* CBNetworking */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F74E2F232D54A0DE0034B3F0 /* XCRemoteSwiftPackageReference "CBNetworking" */;
+			productName = CBNetworking;
+		};
+		F74E302F2D54A5570034B3F0 /* Swinject */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F74E302E2D54A5570034B3F0 /* XCRemoteSwiftPackageReference "Swinject" */;
+			productName = Swinject;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = F7D063A225D53F8B00BAC3A0 /* Project object */;
+}
